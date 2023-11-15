@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class Ghost : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float moveSpeed = 16.0f;
