@@ -2,7 +2,7 @@
     "name": "HunterInputAction",
     "maps": [
         {
-            "name": "Player",
+            "name": "Hunter",
             "id": "feed1cf6-1d97-4dc3-8722-f0a48d76a628",
             "actions": [
                 {

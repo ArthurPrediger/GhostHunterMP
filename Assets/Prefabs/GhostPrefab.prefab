@@ -59,7 +59,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Ghost
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &1984519340917387038
@@ -176,7 +176,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!114 &7777148684456720294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,6 +191,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 8
   movement: {fileID: 3188364347440757665, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
+  attack: {fileID: 1883146974714704971, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
+  dash: {fileID: 9182845799882666745, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
 --- !u!61 &2635708741285400659
 BoxCollider2D:
   m_ObjectHideFlags: 0
