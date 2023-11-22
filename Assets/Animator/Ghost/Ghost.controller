@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9102513756844778240}
@@ -84,7 +84,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7036236401917187192}
@@ -109,7 +109,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: IsAttacking
@@ -187,7 +187,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: IsAttacking
@@ -215,7 +215,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsAttacking
@@ -421,7 +421,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GhostDashFront
-  m_Speed: 1
+  m_Speed: 4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 8523912180938378796}
@@ -635,7 +635,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3833276563703776265}
@@ -660,7 +660,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3644915132796191070}
@@ -770,7 +770,7 @@ AnimatorController:
   m_Name: Ghost
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: IsDashsing
+  - m_Name: IsDashing
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -1074,7 +1074,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: IsAttacking
@@ -1102,7 +1102,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsAttacking
@@ -1130,7 +1130,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5935614444326811777}
@@ -1154,7 +1154,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GhostDashSide
-  m_Speed: 1
+  m_Speed: 4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7290563596801020194}
@@ -1240,7 +1240,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -318035214333351346}
@@ -1296,7 +1296,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9102513756844778240}
@@ -1400,7 +1400,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsAttacking
@@ -1478,7 +1478,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDashsing
+    m_ConditionEvent: IsDashing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7334484728590352251}
@@ -1502,7 +1502,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GhostDashBack
-  m_Speed: 1
+  m_Speed: 4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7540586998419177436}

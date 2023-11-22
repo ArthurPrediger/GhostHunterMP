@@ -190,6 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
+  dashSpeed: 16
   movement: {fileID: 3188364347440757665, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
   attack: {fileID: 1883146974714704971, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
   dash: {fileID: 9182845799882666745, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
