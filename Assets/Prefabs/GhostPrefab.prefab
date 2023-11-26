@@ -74,8 +74,8 @@ GameObject:
   - component: {fileID: 8568394109705138647}
   - component: {fileID: 4890491779630118241}
   - component: {fileID: 7777148684456720294}
-  - component: {fileID: 2635708741285400659}
   - component: {fileID: 3682916889738651917}
+  - component: {fileID: 1614551485731436353}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -175,8 +175,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &7777148684456720294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,8 +194,29 @@ MonoBehaviour:
   movement: {fileID: 3188364347440757665, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
   attack: {fileID: 1883146974714704971, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
   dash: {fileID: 9182845799882666745, guid: a617d1dfec41be541b7245c91ee5e499, type: 3}
---- !u!61 &2635708741285400659
-BoxCollider2D:
+--- !u!95 &3682916889738651917
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984519340917387038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1cde86481b9e1f41a17179741999cd2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &1614551485731436353
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -226,40 +247,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013944507, y: -0.03253752}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.8, y: 1.8}
-    newSize: {x: 1.8, y: 1.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1213615, y: 1.7349249}
-  m_EdgeRadius: 0
---- !u!95 &3682916889738651917
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984519340917387038}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d1cde86481b9e1f41a17179741999cd2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.8, y: 1.6}
+  m_Direction: 0
 --- !u!1 &7981178454457030660
 GameObject:
   m_ObjectHideFlags: 0
