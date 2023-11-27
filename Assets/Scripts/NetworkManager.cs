@@ -20,6 +20,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public void Play()
     {
+
         PhotonNetwork.JoinRandomRoom();
     }
 
